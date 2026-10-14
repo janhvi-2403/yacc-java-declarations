@@ -1,5 +1,8 @@
 {
   "name": "LEX-YACC Development",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
   "postCreateCommand": "sudo apt-get update && sudo apt-get install -y flex bison gcc make"
 }
